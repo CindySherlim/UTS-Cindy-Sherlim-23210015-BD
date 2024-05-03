@@ -1,0 +1,300 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family: helvetica;
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    position: sticky;
+    margin: 0;
+    z-index: 999;
+}
+
+.navbar ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style-type: none;
+    background-color: white;
+    margin:0px;
+    padding: 10px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    display: block;
+}
+
+.navbar li #t{
+    border: 1;
+    border-style: solid;
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+.navbar ul ul {
+    position: absolute;
+    top: 80%;
+    display: none;
+    length: 30%;
+    width: auto;
+}
+
+.navbar ul ul li {
+    display: block;
+    text-decoration: none;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.navbar ul ul li #t{
+    border: 1;
+    border-style: solid;
+}
+
+.navbar ul ul li a:hover {
+    background-color:aliceblue;
+    width: auto;
+}
+
+.rightnav {
+    padding: auto;
+    margin-right: right;
+    display:flex;
+}
+
+.rightnav #t{
+    height: 30px;
+}
+
+.rightnav .btn {
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    color: #010B73;
+    transition: 0,4s;
+    background-color:#f0f0f0;
+}
+.btn a {
+        text-decoration: none;
+        color: white;
+}
+
+.btn:hover{
+    text-align: right;
+    cursor: pointer;
+}
+
+.logo{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    height:60px;
+    padding-left: 10px;
+}
+
+.aboutme, .biodata{
+    border: 2;
+    border-style: solid;
+    border-radius: 3px;
+    background-color:#f0f0f0;
+    border-color: #f0f0f0;
+}
+
+h3{
+    color:#164863;
+}
+
+
+
+.card {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+    max-width: 420px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    position: relative;
+    left: 50px;
+  }
+  .card h2 {
+    margin: 0;
+    padding: 0 1rem;
+  }
+  .card .title {
+    padding: 1rem;
+    text-align: right;
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .card .desc {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+  
+  .card-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .title-total {
+    padding: 1.5em 1.5em 1.5em 1.5em;
+  }
+  
+  path {
+    fill: white;
+  }
+  
+  .kartu{
+    display: flex;
+  }
+
+  .img-portada {
+    width: 100%;
+  }
+  
+  .portada {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url("foto.png");
+    background-position: bottom center;
+    background-size: cover;
+  }
+.get{
+    text-align: center;
+    font-size: 30px;
+}
+
+.funfact {
+    background: #9BBEC8;
+    border-radius: 4px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+    max-width: 250px;
+    border-radius: 25px;
+    height: auto;
+    position: relative;
+    left: 100px;
+  }
+  .funfact h2 {
+    margin: 0;
+    padding: 0 1rem;
+  }
+ 
+  .funfact .desc {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+  .funfact-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width:800px;
+  }
+  .poin {
+    padding: 5em 1.5em 5em 1.5em;
+    color:#164863;
+    display: inline-flex;
+  }
+
+
+
+
+footer {
+  background-color: #010B73;
+  padding: 40px 20px 40px 20px;
+  font-size: 18px;
+  color: rgb(235, 231, 231);
+  font-family: Helvetica;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+.foot {
+  display: flex;
+}
+
+.icons.wa{
+  width:20px;
+  fill:white;
+}
+
+.icons.ig {
+  width: 20px;
+  fill: white;
+}
+
+.kelompok{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 300px;
+}
+
+.login {
+  padding-left: 150px;
+  font-size: 20px;
+  padding-left: 300px;
+}
+
+.subs {
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.signup {
+  font-size: 14px;
+}
+
+.email {
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 9px;
+  width: 150px;
+  padding: 7px;
+}
+
+.submit {
+  font-size: 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-style: none;
+  padding: 7px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.submit a {
+  text-decoration: none;
+  color: white;
+}
+
+.submit a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 20px;
+  border-style: none;
+  padding: 8px;
+  width: 60px;
+}
